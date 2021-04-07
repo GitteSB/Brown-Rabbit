@@ -137,7 +137,7 @@ h2 {
 
 .content-sidebar {
 
-  background: /* gradient can be an image */ linear-gradient(to bottom, rgb(228, 228, 228) 0%, white 100%) left bottom no-repeat;
+  background: linear-gradient(to bottom, rgb(228, 228, 228) 0%, white 100%) left bottom no-repeat;
 
 }
 
@@ -284,7 +284,7 @@ a {
 }
 
 
-.sponsors-img1 {
+.sponsors-img {
 
   background-image: url(../img/Sponsors.png);
 
