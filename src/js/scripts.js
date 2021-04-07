@@ -52,6 +52,7 @@ function handleData(articles) {
 
 }
 
+// Carousel random start
 
 function setCarousel(){
 
@@ -86,7 +87,7 @@ function pagination() {
 }
 
 
-//Calculate numbet of pages from the content
+
 
 function getNumberOfPages() {
 
@@ -331,7 +332,7 @@ function search(){
 
     searchInput.addEventListener("input", searchFilter);
 
-    //Input Enter button event
+    //Input Enter button keyup event
 
     searchInput.addEventListener("keyup", function(event){
 
@@ -344,7 +345,7 @@ function search(){
     });
 
 
-    //Search Button event
+    //Search Button  click event
 
     searchButton.addEventListener("click", function(event){
 
@@ -397,7 +398,7 @@ function searchFilter(event){
 }
 
 
-// //If no results
+// //If no results of search
 
 function noResult(){
 
@@ -416,7 +417,7 @@ function noResult(){
 }
 
 
-//Highlight
+//Highlight in text
 
 function highlightEach(){
 
